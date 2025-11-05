@@ -1,0 +1,37 @@
+<information>
+    <name_one>
+        <id sr="1">23</id> 
+        <name>Jhon Carter</name>
+        <ad_date>
+            <date>25</date>
+            <month>12</month>
+            <year>2015</year>
+        </ad_date>
+        <stock>50</stock>
+        <status>1</status>
+    </name_one>
+
+    <name_two>
+        <id sr="2">29</id> 
+        <name>Bob Marshal</name>
+        <ad_date>
+            <date>13</date>
+            <month>01</month>
+            <year>1999</year>
+        </ad_date>
+        <stock>35</stock>
+        <status>0</status>
+    </name_two>
+
+    <name_three>
+    <id sr="3">35</id>
+    <name>Clark Kent</name>
+    <ad_date>
+            <date>17</date>
+            <month>06</month>
+            <year>2005</year>
+        </ad_date>
+    
+    </name_three>
+
+</information>

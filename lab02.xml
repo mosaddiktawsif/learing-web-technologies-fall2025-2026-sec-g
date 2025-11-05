@@ -1,0 +1,56 @@
+<info>
+    <info_one>
+        <id sr="1">1</id> 
+        <name>Jhon Carter</name>
+         <address>
+                <house>
+                    H# 38,
+                </house> 
+                 <road>
+                     R#3,
+                </road> 
+                <location>
+                    Banani, Dhaka
+                </location>
+        </address>
+        <dept>Sales</dept>
+        <sal>$20000</sal>
+    </info_one>
+
+    <info_two>
+        <id sr="2">2</id> 
+        <name>Mark Zuckerberg </name>
+         <address>
+                <house>
+                    flat# A/1, H# 20, 
+                </house> 
+                 <road>
+                     R#18, 
+                </road> 
+                <location>
+                     Mirpur, Dhaka 
+                </location>
+        </address>
+        <dept>Accounts</dept>
+        <sal>$12000</sal>
+    </info_two>
+
+    <info_three>
+    <id sr="3">3</id>
+    <name>Ala Voski</name>
+    <address>
+                <house>
+                    H# 38,
+                </house> 
+                 <road>
+                     R#3,
+                </road> 
+                <location>
+                    Motijheel
+                </location>
+        </address>
+    <dept>HR</dept>
+    <sal>$30000</sal>
+    </info_three>
+
+</info>
