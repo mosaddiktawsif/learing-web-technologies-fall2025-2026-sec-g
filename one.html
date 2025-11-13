@@ -1,0 +1,32 @@
+
+<html lang="en" >
+<head>
+    <title>TaskOne</title>
+</head>
+<body>
+    <form >
+        Name <br> 
+        <input type="text" id="username" value="" onblur="testName()" />
+        <p id="uError"></p>
+        <input type="submit" name="" value="Submit" />
+    </form>
+
+    <script>
+
+        let uError = document.getElementById('uError');
+
+        function testName() {
+            if(username.value == "")
+        {
+            uError.innerHTML = "Please write the name";
+        }
+            else 
+        {
+            uError.innerHTML= "";
+        }
+           
+    }
+    </script>
+    
+</body>
+</html>
