@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AIUB Photography Club - Admin Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>AIUB Photography Club - Admin Panel</h1>
+
+  
+  <div class="section">
+    <h2>Create New Exhibition</h2>
+    <form name="exhibitionForm" onsubmit="return createExhibition()">
+      <input type="text" id="title" placeholder="Exhibition Title" required><br>
+      
+      <select id="type" required>
+        <option value="">Select Type</option>
+        <option>Solo</option>
+        <option>Group</option>
+        <option>Online</option>
+      </select><br>
+      
+      <select id="category" required>
+        <option value="">Select Category</option>
+        <option>Nature</option>
+        <option>Portrait</option>
+        <option>Street</option>
+        <option>Abstract</option>
+      </select><br>
+      
+      <input type="date" id="deadline" required><br>
+      
+      <button type="submit">Create Exhibition</button>
+    </form>
+    <p id="exhibitionMsg"></p>
+  </div>
+
+  
+  <div class="section">
+    <h2>Review Submissions</h2>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Photo Preview</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Beautiful Sunset</td>
+        <td><span id="status1">Pending</span></td>
+        <td>
+          <button class="approve-btn" onclick="approvePhoto(1)">Approve</button>
+          <button class="reject-btn" onclick="rejectPhoto(1)">Reject</button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Portrait of a Child</td>
+        <td><span id="status2">Pending</span></td>
+        <td>
+          <button class="approve-btn" onclick="approvePhoto(2)">Approve</button>
+          <button class="reject-btn" onclick="rejectPhoto(2)">Reject</button>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Street at Night</td>
+        <td><span id="status3">Pending</span></td>
+        <td>
+          <button class="approve-btn" onclick="approvePhoto(3)">Approve</button>
+          <button class="reject-btn" onclick="rejectPhoto(3)">Reject</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

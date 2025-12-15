@@ -1,0 +1,83 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 30px;
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: blue;
+  border-bottom: 2px solid blue;
+  padding-bottom: 5px;
+}
+
+.section {
+  background: white;
+  padding: 25px;
+  margin: 25px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+input, select, button {
+  padding: 12px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+button {
+  background: rgb(10, 96, 124);
+  color: white;
+  font-weight: bold;
+  width: auto;
+  padding: 12px 30px;
+}
+
+button:hover {
+  background: rgb(10, 96, 124);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: rgb(10, 96, 124);
+  color: white;
+}
+
+.approve-btn {
+  background: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.reject-btn {
+  background: red;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+#exhibitionMsg {
+  margin-top: 10px;
+  font-weight: bold;
+}
